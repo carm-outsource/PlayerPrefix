@@ -52,6 +52,13 @@
 - 设置目标玩家的前缀列表为源玩家的前缀列表
 ```
 
+## 变量
+
+```text
+# %PlayerPrefix%
+- 获取玩家当前的前缀内容。
+```
+
 ## [玩家数据文件](https://github.com/CarmJos/PlayerPrefix/blob/master/example/userdata.yml) 示例
 
 ```yaml

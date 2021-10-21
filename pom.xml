@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.harmoland</groupId>
+    <groupId>cc.carm.plugin</groupId>
     <artifactId>PlayerPrefix</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -78,9 +78,17 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/CarmJos/PlayerPrefix</url>
+            <url>https://maven.pkg.github.com/CarmJos/${project.artifactId}</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/CarmJos/${project.artifactId}</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
 
@@ -95,6 +103,7 @@
             <groupId>com.github.azbh111</groupId>
             <artifactId>craftbukkit-1.12.2</artifactId>
             <version>R</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
