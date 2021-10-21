@@ -1,7 +1,10 @@
 main: cc.carm.plugin.playerprefix.Main
 
-name: ${project.artifactId}
+name: ${project.name}
 version: ${project.version}
+description: ${project.description}
+author: CarmJos
+website: ${project.url}
 
 depend:
   - ProtocolLib
@@ -13,6 +16,4 @@ commands:
     aliases:
       - prefix
 
-author: CarmJos
-website: ${project.url}
-description: ${project.description}
+

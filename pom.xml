@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cc.carm.plugin</groupId>
-    <artifactId>PlayerPrefix</artifactId>
-    <version>1.1.0</version>
+    <artifactId>playerprefix</artifactId>
+    <version>1.1.1</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -15,7 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <name>玩家前缀系统</name>
+    <name>PlayerPrefix</name>
     <description>指令操作的轻量玩家前缀管理插件。</description>
     <url>https://github.com/CarmJos/PlayerPrefix</url>
 
