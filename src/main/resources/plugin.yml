@@ -1,0 +1,10 @@
+name: PlayerPrefix
+main: cc.carm.plugin.playerprefix.Main
+version: ${project}
+author: CarmJos
+depend: [ ProtocolLib ]
+website: "https://github.com/CarmJos/PlayerPrefix"
+commands:
+  PlayerPrefix:
+    aliases:
+      - prefix

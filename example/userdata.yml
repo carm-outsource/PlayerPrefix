@@ -1,0 +1,6 @@
+prefixs:
+  enable: true
+  using: 0
+  list:
+    1: "测试"
+    2: "爱你"
