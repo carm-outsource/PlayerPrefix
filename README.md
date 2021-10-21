@@ -55,7 +55,7 @@
 ## [玩家数据文件](https://github.com/CarmJos/PlayerPrefix/blob/master/example/userdata.yml) 示例
 
 ```yaml
-prefixs:
+prefixes:
   enable: true # 该玩家是否启用前缀
   using: 0 # 正在使用的前缀ID
   list: #前缀内容列表
@@ -69,7 +69,7 @@ prefixs:
 
 感谢您成为开源项目的支持者！
 
-<img height=25% width=25% src="https://raw.githubusercontent.com/CarmJos/UserPrefix/master/img/PAY.jpg" />
+<img height=25% width=25% src="https://raw.githubusercontent.com/CarmJos/CarmJos/main/img/donate-code.jpg" />
 
 ## 开源协议
 
