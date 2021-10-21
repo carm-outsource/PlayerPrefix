@@ -21,12 +21,12 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/CarmJos/PlayerPrefix/issues</url>
+        <url>${project.url}/issues</url>
     </issueManagement>
 
     <ciManagement>
         <system>GitHub Actions</system>
-        <url>https://github.com/CarmJos/PlayerPrefix/actions/workflows/maven.yml</url>
+        <url>${project.url}/actions/workflows/maven.yml</url>
     </ciManagement>
 
     <developers>
@@ -43,8 +43,8 @@
 
     <licenses>
         <license>
-            <name>GNU General Public License v3.0</name>
-            <url>https://opensource.org/licenses/GPL-3.0</url>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
 
